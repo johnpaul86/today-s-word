@@ -1,6 +1,5 @@
 <?php
-session_start();
-	
+session_start();	
 function tw_settings_page()
 {
     add_settings_section("section", " ", null, "tw");
