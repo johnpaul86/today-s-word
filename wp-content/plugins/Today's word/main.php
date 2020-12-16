@@ -9,6 +9,7 @@ Author URI: https://www.linkedin.com/in/johnpaul-ob-83910889/
 
 define( 'TW_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
+require_once( TW_PLUGIN_DIR . 'tool.import.php' );
 require_once( TW_PLUGIN_DIR . 'class.widget.php' );
 require_once( TW_PLUGIN_DIR . 'display.widget.php' );
 
